@@ -1,0 +1,1092 @@
+{
+ "title": "TypeSafe AI",
+ "h": 2280,
+ "body": {
+  "bg": "rgb(171, 186, 185)",
+  "htmlBg": "rgba(0, 0, 0, 0)",
+  "color": "rgb(0, 0, 0)",
+  "font": "sans-serif",
+  "size": "12px",
+  "lh": "normal",
+  "smoothing": "antialiased",
+  "selection": ""
+ },
+ "sheets": {
+  "vars": {
+   "body": {
+    "--token-fc29c52d-e2b7-4fcb-9dc0-0d519ba59db1": "#f386a1",
+    "--token-83af3bf5-6db8-4cd0-8eac-b0bc007f957e": "#fff",
+    "--token-b7553c39-c4a9-4aab-8fa6-46500ec9f7d9": "#fefefe",
+    "--token-237d9693-a3c9-4456-b121-7c39d48b0cfb": "#1e1e1edb",
+    "--token-fb050f54-562a-41e4-9868-f56138e993d3": "#03aa5c",
+    "--token-f32d61d9-c24f-4bf9-9795-df9ec1319c00": "#03aa5cbd",
+    "--token-f9dd19dd-b66e-4920-ad97-1dd63ba6e743": "#1e1e1e",
+    "--token-da5e5e0f-6b01-457e-bb2d-6d9c652a4ff3": "#dedede",
+    "--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0": "#d45bb6",
+    "--token-96554cf0-418c-4a48-ab82-4056905ea143": "#09aea1",
+    "--token-4e2a8bb4-5f1a-48cf-bd23-3922363794f0": "#abbab9",
+    "--token-df227308-60be-4193-a99e-717d73a86df8": "#ffffff29",
+    "--token-bad6d7ef-d880-4bf8-8504-e0f905d14890": "#000",
+    "--token-fa4dcb27-7179-41c9-bbdc-0fe7fe502e97": "#fffc",
+    "--token-5d3602f5-d470-4b4b-916d-5b57bbf588f8": "#858585e6",
+    "--token-33937e6f-dc3e-4c47-bf83-7d83f61531ea": "#fff",
+    "--token-932ec4ef-c27c-4840-af3d-3d501c48a21e": "#fff0",
+    "--framer-will-change-override": "transform",
+    "--framer-will-change-filter-override": "filter"
+   },
+   "[data-framer-component-type=\"Text\"] div div span, [data-framer-component-type=\"Text\"] a div span, [data-framer-component-type=\"Text\"] span span span, [data-framer-component-type=\"Text\"] p span span, [data-framer-component-type=\"Text\"] h1 span span, [data-framer-component-type=\"Text\"] h2 span span, [data-framer-component-type=\"Text\"] h3 span span, [data-framer-component-type=\"Text\"] h4 span span, [data-framer-component-type=\"Text\"] h5 span span, [data-framer-component-type=\"Text\"] h6 span span, [data-framer-component-type=\"Text\"] a": {
+    "--text-decoration": "var(--framer-text-decoration-style,solid) var(--framer-text-decoration,none) var(--framer-text-decoration-color,currentcolor) var(--framer-text-decoration-thickness,auto)",
+    "--text-decoration-skip-ink": "var(--framer-text-decoration-skip-ink)",
+    "--text-underline-offset": "var(--framer-text-decoration-offset)",
+    "--font-family": "var(--framer-font-family)",
+    "--font-style": "var(--framer-font-style)",
+    "--font-weight": "var(--framer-font-weight)",
+    "--text-color": "var(--framer-text-color)",
+    "--letter-spacing": "var(--framer-letter-spacing)",
+    "--font-size": "var(--framer-font-size)",
+    "--text-transform": "var(--framer-text-transform)",
+    "--line-height": "var(--framer-line-height)"
+   },
+   ":root": {
+    "--overflow-clip-fallback": "hidden",
+    "--one-if-corner-shape-supported": "1"
+   },
+   ".framer-ANMpB .framer-styles-preset-19fegko:not(.rich-text-wrapper), .framer-ANMpB .framer-styles-preset-19fegko.rich-text-wrapper a": {
+    "--framer-link-hover-text-background-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-link-text-background-color": "var(--token-b7553c39-c4a9-4aab-8fa6-46500ec9f7d9,#fefefe)",
+    "--framer-link-text-background-padding": "8px 6px 8px 6px",
+    "--framer-link-text-color": "var(--token-237d9693-a3c9-4456-b121-7c39d48b0cfb,#1e1e1edb)"
+   },
+   ".framer-4Vc8r .framer-styles-preset-143xc4e:not(.rich-text-wrapper), .framer-4Vc8r .framer-styles-preset-143xc4e.rich-text-wrapper a": {
+    "--framer-link-hover-text-background-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-link-text-background-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-link-text-background-padding": "8px 6px 8px 6px",
+    "--framer-link-text-color": "var(--token-237d9693-a3c9-4456-b121-7c39d48b0cfb,#1e1e1edb)"
+   },
+   "[data-framer-component-type=\"Text\"] a, [data-framer-component-type=\"Text\"] a div span, [data-framer-component-type=\"Text\"] a span span span, [data-framer-component-type=\"Text\"] a p span span, [data-framer-component-type=\"Text\"] a h1 span span, [data-framer-component-type=\"Text\"] a h2 span span, [data-framer-component-type=\"Text\"] a h3 span span, [data-framer-component-type=\"Text\"] a h4 span span, [data-framer-component-type=\"Text\"] a h5 span span, [data-framer-component-type=\"Text\"] a h6 span span": {
+    "--font-family": "var(--framer-link-font-family,var(--framer-font-family))",
+    "--font-style": "var(--framer-link-font-style,var(--framer-font-style))",
+    "--font-weight": "var(--framer-link-font-weight,var(--framer-font-weight))",
+    "--text-color": "var(--framer-link-text-color,var(--framer-text-color))",
+    "--font-size": "var(--framer-link-font-size,var(--framer-font-size))",
+    "--text-transform": "var(--framer-link-text-transform,var(--framer-text-transform))",
+    "--text-decoration": "var(--framer-link-text-decoration-style,var(--framer-text-decoration-style,solid)) var(--framer-link-text-decoration,var(--framer-text-decoration,none)) var(--framer-link-text-decoration-color,var(--framer-text-decoration-color,currentcolor)) var(--framer-link-text-decoration-thickness,var(--framer-text-decoration-thickness,auto))",
+    "--text-decoration-skip-ink": "var(--framer-link-text-decoration-skip-ink,var(--framer-text-decoration-skip-ink))",
+    "--text-underline-offset": "var(--framer-link-text-decoration-offset,var(--framer-text-decoration-offset))"
+   },
+   "[data-framer-component-type=\"Text\"] a:hover, [data-framer-component-type=\"Text\"] a div span:hover, [data-framer-component-type=\"Text\"] a span span span:hover, [data-framer-component-type=\"Text\"] a p span span:hover, [data-framer-component-type=\"Text\"] a h1 span span:hover, [data-framer-component-type=\"Text\"] a h2 span span:hover, [data-framer-component-type=\"Text\"] a h3 span span:hover, [data-framer-component-type=\"Text\"] a h4 span span:hover, [data-framer-component-type=\"Text\"] a h5 span span:hover, [data-framer-component-type=\"Text\"] a h6 span span:hover": {
+    "--font-family": "var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+    "--font-style": "var(--framer-link-hover-font-style,var(--framer-link-font-style,var(--framer-font-style)))",
+    "--font-weight": "var(--framer-link-hover-font-weight,var(--framer-link-font-weight,var(--framer-font-weight)))",
+    "--text-color": "var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-text-color)))",
+    "--font-size": "var(--framer-link-hover-font-size,var(--framer-link-font-size,var(--framer-font-size)))",
+    "--text-transform": "var(--framer-link-hover-text-transform,var(--framer-link-text-transform,var(--framer-text-transform)))",
+    "--text-decoration": "var(--framer-link-hover-text-decoration-style,var(--framer-link-text-decoration-style,var(--framer-text-decoration-style,solid))) var(--framer-link-hover-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none))) var(--framer-link-hover-text-decoration-color,var(--framer-link-text-decoration-color,var(--framer-text-decoration-color,currentcolor))) var(--framer-link-hover-text-decoration-thickness,var(--framer-link-text-decoration-thickness,var(--framer-text-decoration-thickness,auto)))",
+    "--text-decoration-skip-ink": "var(--framer-link-hover-text-decoration-skip-ink,var(--framer-link-text-decoration-skip-ink,var(--framer-text-decoration-skip-ink)))",
+    "--text-underline-offset": "var(--framer-link-hover-text-decoration-offset,var(--framer-link-text-decoration-offset,var(--framer-text-decoration-offset)))"
+   },
+   "[data-framer-component-type=\"Text\"].isCurrent a, [data-framer-component-type=\"Text\"].isCurrent a div span, [data-framer-component-type=\"Text\"].isCurrent a span span span, [data-framer-component-type=\"Text\"].isCurrent a p span span, [data-framer-component-type=\"Text\"].isCurrent a h1 span span, [data-framer-component-type=\"Text\"].isCurrent a h2 span span, [data-framer-component-type=\"Text\"].isCurrent a h3 span span, [data-framer-component-type=\"Text\"].isCurrent a h4 span span, [data-framer-component-type=\"Text\"].isCurrent a h5 span span, [data-framer-component-type=\"Text\"].isCurrent a h6 span span": {
+    "--font-family": "var(--framer-link-current-font-family,var(--framer-link-font-family,var(--framer-font-family)))",
+    "--font-style": "var(--framer-link-current-font-style,var(--framer-link-font-style,var(--framer-font-style)))",
+    "--font-weight": "var(--framer-link-current-font-weight,var(--framer-link-font-weight,var(--framer-font-weight)))",
+    "--text-color": "var(--framer-link-current-text-color,var(--framer-link-text-color,var(--framer-text-color)))",
+    "--font-size": "var(--framer-link-current-font-size,var(--framer-link-font-size,var(--framer-font-size)))",
+    "--text-transform": "var(--framer-link-current-text-transform,var(--framer-link-text-transform,var(--framer-text-transform)))",
+    "--text-decoration": "var(--framer-link-current-text-decoration-style,var(--framer-link-text-decoration-style,var(--framer-text-decoration-style,solid))) var(--framer-link-current-text-decoration,var(--framer-link-text-decoration,var(--framer-text-decoration,none))) var(--framer-link-current-text-decoration-color,var(--framer-link-text-decoration-color,var(--framer-text-decoration-color,currentcolor))) var(--framer-link-current-text-decoration-thickness,var(--framer-link-text-decoration-thickness,var(--framer-text-decoration-thickness,auto)))",
+    "--text-decoration-skip-ink": "var(--framer-link-current-text-decoration-skip-ink,var(--framer-link-text-decoration-skip-ink,var(--framer-text-decoration-skip-ink)))",
+    "--text-underline-offset": "var(--framer-link-current-text-decoration-offset,var(--framer-link-text-decoration-offset,var(--framer-text-decoration-offset)))"
+   },
+   ".text-styles-preset-reset.framer-text": {
+    "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+    "--framer-font-style": "normal",
+    "--framer-font-weight": "500",
+    "--framer-text-color": "#000",
+    "--framer-font-size": "16px",
+    "--framer-letter-spacing": "0",
+    "--framer-text-transform": "none",
+    "--framer-text-decoration": "none",
+    "--framer-text-decoration-style": "none",
+    "--framer-text-decoration-color": "none",
+    "--framer-text-decoration-thickness": "none",
+    "--framer-text-decoration-skip-ink": "none",
+    "--framer-text-decoration-offset": "none",
+    "--framer-line-height": "1.2em",
+    "--framer-text-alignment": "start",
+    "--framer-font-open-type-features": "normal",
+    "--framer-text-background-color": "initial",
+    "--framer-text-background-radius": "initial",
+    "--framer-text-background-corner-shape": "initial",
+    "--framer-text-background-padding": "initial"
+   },
+   "ol.framer-text": {
+    "--list-style-type": "decimal"
+   },
+   "[data-framer-component-type=\"DeprecatedRichText\"] .text-styles-preset-reset": {
+    "--framer-font-family": "Inter, Inter Placeholder, sans-serif",
+    "--framer-font-style": "normal",
+    "--framer-font-weight": "500",
+    "--framer-text-color": "#000",
+    "--framer-font-size": "16px",
+    "--framer-letter-spacing": "0",
+    "--framer-text-transform": "none",
+    "--framer-text-decoration": "none",
+    "--framer-line-height": "1.2em",
+    "--framer-text-alignment": "start",
+    "--framer-font-open-type-features": "normal",
+    "--font-variation-settings": "normal"
+   },
+   ".framer-VJScu .framer-styles-preset-1owhkfx:not(.rich-text-wrapper), .framer-VJScu .framer-styles-preset-1owhkfx.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Medium\", \"Die Grotesk C Medium Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "18px",
+    "--framer-font-style": "normal",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "500",
+    "--framer-letter-spacing": ".03em",
+    "--framer-line-height": "100%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "center",
+    "--framer-text-color": "#1e1e1e",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "initial",
+    "--framer-text-stroke-width": "initial",
+    "--framer-text-transform": "capitalize"
+   },
+   ".framer-33uel .framer-1gqzs44": {
+    "--framer-paragraph-spacing": "0px"
+   },
+   ".framer-33uel .framer-5y5jp3, .framer-33uel .framer-1siafi0": {
+    "--border-bottom-width": "1px",
+    "--border-color": "#8883",
+    "--border-left-width": "1px",
+    "--border-right-width": "1px",
+    "--border-style": "dashed",
+    "--border-top-width": "1px"
+   },
+   ".framer-33uel .framer-1m4v86n": {
+    "--framer-paragraph-spacing": "0px",
+    "--text-truncation-display-inline-for-safari-16": "inline",
+    "--text-truncation-display-none-for-safari-16": "none",
+    "--text-truncation-line-break-for-safari-16": "\"\\a \""
+   },
+   ".framer-VwM7r .framer-styles-preset-1gz3e0j:not(.rich-text-wrapper), .framer-VwM7r .framer-styles-preset-1gz3e0j.rich-text-wrapper h1": {
+    "--framer-font-family": "\"Die Grotesk C Medium\", \"Die Grotesk C Medium Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"Die Grotesk C Medium\", \"Die Grotesk C Medium Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "54px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "500",
+    "--framer-font-weight-bold": "500",
+    "--framer-letter-spacing": "0em",
+    "--framer-line-height": "80%",
+    "--framer-paragraph-spacing": "0px",
+    "--framer-text-alignment": "center",
+    "--framer-text-color": "#1e1e1edb",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-237d9693-a3c9-4456-b121-7c39d48b0cfb,#1e1e1edb)",
+    "--framer-text-stroke-width": "1.2px",
+    "--framer-text-transform": "capitalize"
+   },
+   ".framer-X04cV .framer-styles-preset-1m5lpcg:not(.rich-text-wrapper), .framer-X04cV .framer-styles-preset-1m5lpcg.rich-text-wrapper p": {
+    "--framer-font-family": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-family-bold-italic": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-family-italic": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "12px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "300",
+    "--framer-font-weight-bold": "400",
+    "--framer-font-weight-bold-italic": "400",
+    "--framer-font-weight-italic": "300",
+    "--framer-letter-spacing": ".05em",
+    "--framer-line-height": "120%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "#1e1e1edb",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-237d9693-a3c9-4456-b121-7c39d48b0cfb,#1e1e1edb)",
+    "--framer-text-stroke-width": ".5px",
+    "--framer-text-transform": "capitalize"
+   },
+   ".framer-nSfJ4 .framer-styles-preset-1t9z3vl:not(.rich-text-wrapper), .framer-nSfJ4 .framer-styles-preset-1t9z3vl.rich-text-wrapper a": {
+    "--framer-link-hover-text-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-link-text-color": "var(--token-b7553c39-c4a9-4aab-8fa6-46500ec9f7d9,#fefefe)"
+   },
+   ".framer-hOqV8 .framer-styles-preset-1fty8dp:not(.rich-text-wrapper), .framer-hOqV8 .framer-styles-preset-1fty8dp.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Regular\", \"Die Grotesk C Regular Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "15px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "400",
+    "--framer-font-weight-bold": "700",
+    "--framer-font-weight-bold-italic": "700",
+    "--framer-font-weight-italic": "400",
+    "--framer-letter-spacing": ".05em",
+    "--framer-line-height": "120%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "var(--token-b7553c39-c4a9-4aab-8fa6-46500ec9f7d9,#fefefe)",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-b7553c39-c4a9-4aab-8fa6-46500ec9f7d9,#fefefe)",
+    "--framer-text-stroke-width": ".5px",
+    "--framer-text-transform": "none"
+   },
+   ".framer-uM8eA .framer-styles-preset-4yy0fr:not(.rich-text-wrapper), .framer-uM8eA .framer-styles-preset-4yy0fr.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Regular\", \"Die Grotesk C Regular Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "15px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "400",
+    "--framer-font-weight-bold": "700",
+    "--framer-font-weight-bold-italic": "700",
+    "--framer-font-weight-italic": "400",
+    "--framer-letter-spacing": ".05em",
+    "--framer-line-height": "120%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "#1e1e1edb",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-f9dd19dd-b66e-4920-ad97-1dd63ba6e743,#1e1e1e)",
+    "--framer-text-stroke-width": ".5px",
+    "--framer-text-transform": "none"
+   },
+   ".framer-ddvzI .framer-mhqbj8": {
+    "--text-truncation-display-inline-for-safari-16": "inline",
+    "--text-truncation-display-none-for-safari-16": "none",
+    "--text-truncation-line-break-for-safari-16": "\"\\a \""
+   },
+   ".framer-fNZnU .framer-styles-preset-6xiy3q:not(.rich-text-wrapper), .framer-fNZnU .framer-styles-preset-6xiy3q.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Medium\", \"Die Grotesk C Medium Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "48px",
+    "--framer-font-style": "normal",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "500",
+    "--framer-letter-spacing": "0em",
+    "--framer-line-height": "90%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-background-radius": "0px",
+    "--framer-text-color": "#1e1e1edb",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-237d9693-a3c9-4456-b121-7c39d48b0cfb,#1e1e1edb)",
+    "--framer-text-stroke-width": "1px",
+    "--framer-text-transform": "capitalize"
+   },
+   ".framer-fUsrC .framer-styles-preset-1cumkji:not(.rich-text-wrapper), .framer-fUsrC .framer-styles-preset-1cumkji.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Medium\", \"Die Grotesk C Medium Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "48px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "500",
+    "--framer-font-weight-bold": "700",
+    "--framer-font-weight-bold-italic": "700",
+    "--framer-font-weight-italic": "400",
+    "--framer-letter-spacing": "0em",
+    "--framer-line-height": "90%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-background-radius": "0px",
+    "--framer-text-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-text-stroke-width": "1px",
+    "--framer-text-transform": "capitalize"
+   },
+   ".framer-pq3Zu .framer-a0wo89": {
+    "--text-truncation-display-inline-for-safari-16": "inline",
+    "--text-truncation-display-none-for-safari-16": "none",
+    "--text-truncation-line-break-for-safari-16": "\"\\a \""
+   },
+   ".framer-P25Pl .framer-styles-preset-4xqhyo:not(.rich-text-wrapper), .framer-P25Pl .framer-styles-preset-4xqhyo.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Medium\", \"Die Grotesk C Medium Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "30px",
+    "--framer-font-style": "normal",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "500",
+    "--framer-letter-spacing": ".02em",
+    "--framer-line-height": "90%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "#1e1e1edb",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "initial",
+    "--framer-text-stroke-width": "initial",
+    "--framer-text-transform": "capitalize"
+   },
+   ".framer-LHxDv .framer-styles-preset-ecyven:not(.rich-text-wrapper), .framer-LHxDv .framer-styles-preset-ecyven.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Regular\", \"Die Grotesk C Regular Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "17px",
+    "--framer-font-style": "normal",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "400",
+    "--framer-letter-spacing": ".05em",
+    "--framer-line-height": "120%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "#1e1e1edb",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-237d9693-a3c9-4456-b121-7c39d48b0cfb,#1e1e1edb)",
+    "--framer-text-stroke-width": ".5px",
+    "--framer-text-transform": "none"
+   },
+   ".framer-kZfBJ .framer-styles-preset-12btspv:not(.rich-text-wrapper), .framer-kZfBJ .framer-styles-preset-12btspv.rich-text-wrapper p": {
+    "--framer-font-family": "\"Die Grotesk C Regular\", \"Die Grotesk C Regular Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-bold-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-family-italic": "\"Inter\", \"Inter Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "17px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "400",
+    "--framer-font-weight-bold": "700",
+    "--framer-font-weight-bold-italic": "700",
+    "--framer-font-weight-italic": "400",
+    "--framer-letter-spacing": ".05em",
+    "--framer-line-height": "120%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "var(--token-c5350c56-b0bc-47c7-891e-b1d6b715f7e0,#d45bb6)",
+    "--framer-text-stroke-width": ".5px",
+    "--framer-text-transform": "none"
+   },
+   ".framer-STXzo .framer-styles-preset-prmo3w:not(.rich-text-wrapper), .framer-STXzo .framer-styles-preset-prmo3w.rich-text-wrapper p": {
+    "--framer-font-family": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-family-bold": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-family-bold-italic": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-family-italic": "\"JetBrains Mono\", \"JetBrains Mono Placeholder\", sans-serif",
+    "--framer-font-open-type-features": "normal",
+    "--framer-font-size": "10px",
+    "--framer-font-style": "normal",
+    "--framer-font-style-bold": "normal",
+    "--framer-font-style-bold-italic": "italic",
+    "--framer-font-style-italic": "italic",
+    "--framer-font-variation-axes": "normal",
+    "--framer-font-weight": "300",
+    "--framer-font-weight-bold": "400",
+    "--framer-font-weight-bold-italic": "400",
+    "--framer-font-weight-italic": "300",
+    "--framer-letter-spacing": ".05em",
+    "--framer-line-height": "120%",
+    "--framer-paragraph-spacing": "20px",
+    "--framer-text-alignment": "start",
+    "--framer-text-color": "#fefefe",
+    "--framer-text-decoration": "none",
+    "--framer-text-stroke-color": "#fefefedb",
+    "--framer-text-stroke-width": ".5px",
+    "--framer-text-transform": "capitalize"
+   }
+  },
+  "fontFaces": [
+   "@font-face { font-family: \"Fragment Mono\"; font-style: normal; font-weight: 400; src: url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB45HhrUI.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: \"Fragment Mono\"; font-style: normal; font-weight: 400; src: url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB41HhrUI.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: \"Fragment Mono\"; font-style: normal; font-weight: 400; src: url(\"https://fonts.gstatic.com/s/fragmentmono/v6/4iCr6K5wfMRRjxp0DA6-2CLnB4NHhg.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: \"JetBrains Mono\"; font-style: normal; font-weight: 300; src: url(\"https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxTN1OVgaY.woff2\") format(\"woff2\"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: \"JetBrains Mono\"; font-style: normal; font-weight: 300; src: url(\"https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxTPlOVgaY.woff2\") format(\"woff2\"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: \"JetBrains Mono\"; font-style: normal; font-weight: 300; src: url(\"https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxTOVOVgaY.woff2\") format(\"woff2\"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1, U+3A3-3FF; }",
+   "@font-face { font-family: \"JetBrains Mono\"; font-style: normal; font-weight: 300; src: url(\"https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxTNVOVgaY.woff2\") format(\"woff2\"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: \"JetBrains Mono\"; font-style: normal; font-weight: 300; src: url(\"https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxTNFOVgaY.woff2\") format(\"woff2\"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, ",
+   "@font-face { font-family: \"JetBrains Mono\"; font-style: normal; font-weight: 300; src: url(\"https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxTOlOV.woff2\") format(\"woff2\"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: \"Die Grotesk C Medium\"; src: url(\"https://framerusercontent.com/assets/4w6Hg5DeDzuWT6PSthKEwbacV0g.woff2\"); font-display: swap; font-style: normal; font-weight: 500; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/mkY5Sgyq51ik0AMrSBwhm9DJg.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/X5hj6qzcHUYv7h1390c8Rhm6550.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/gQhNpS3tN86g8RcVKYUUaKt2oMQ.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+1F00-1FFF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/cugnVhSraaRyANCaUtI5FV17wk.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+370-3FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/5HcVoGak8k5agFJSaKa4floXVu0.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/rZ5DdENNqIdFTIyQQiP5isO7M.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/P2Bw01CtL0b9wqygO0sSVogWbo.woff2\"); font-style: normal; font-weight: 900; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/ky8ovPukK4dJ1Pxq74qGhOqCYI.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/vvNSqIj42qeQ2bvCRBIWKHscrc.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+1F00-1FFF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/3ZmXbBKToJifDV9gwcifVd1tEY.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+370-3FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/FNfhX3dt4ChuLJq2PwdlxHO7PU.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/gcnfba68tfm7qAyrWRCf9r34jg.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/efTfQcBJ53kM2pB1hezSZ3RDUFs.woff2\"); font-style: italic; font-weight: 900; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/H89BbHkbHDzlxZzxi8uPzTsp90.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/u6gJwDuwB143kpNK1T1MDKDWkMc.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/43sJ6MfOPh1LCJt46OvyDuSbA6o.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+1F00-1FFF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/wccHG0r4gBDAIRhfHiOlq6oEkqw.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+370-3FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/WZ367JPwf9bRW6LdTHN8rXgSjw.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/ia3uin3hQWqDrVloC1zEtYHWw.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/2A4Xx7CngadFGlVV4xrO06OBHY.woff2\"); font-display: swap; font-style: italic; font-weight: 700; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: \"LisaTerminal Paper 2X3Y Medium\"; src: url(\"https://framerusercontent.com/assets/V2AZqQSDXyGgvnJfcbuPd1WaW0.woff2\"); font-display: swap; font-style: normal; font-weight: 500; }",
+   "@font-face { font-family: \"Die Grotesk C Regular\"; src: url(\"https://framerusercontent.com/assets/AjH8uNDZvXKC9xfhOZo8jIJKVss.woff2\"); font-display: swap; font-style: normal; font-weight: 400; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+1F00-1FFF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+370-3FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2\"); font-display: swap; font-style: normal; font-weight: 400; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+1F00-1FFF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+370-3FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/syRNPWzAMIrcJ3wIlPIP43KjQs.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2\"); font-display: swap; font-style: normal; font-weight: 700; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/CfMzU8w2e7tHgF4T4rATMPuWosA.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/867QObYax8ANsfX4TGEVU9YiCM.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/Oyn2ZbENFdnW7mt2Lzjk1h9Zb9k.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+1F00-1FFF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+370-3FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/DOfvtmE1UplCq161m6Hj8CSQYg.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/pKRFNWFoZl77qYCAIp84lN1h944.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+   "@font-face { font-family: Inter; src: url(\"https://framerusercontent.com/assets/tKtBcDnBMevsEEJKdNGhhkLzYo.woff2\"); font-display: swap; font-style: italic; font-weight: 400; unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+1EA0-1EF9, U+20AB; }",
+   "@font-face { font-family: \"JetBrains Mono\"; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/TZ2PMVPWEVHUPJWOPNSWLOXAF6QPOEMZ/O4OZKA7ZLZGT4JOGT5IEKURK6U3RXYGM/EO5MKE3BUDOZN44BP4HDPXAJAC2BIMCD.woff2\"); font-display: swap; font-style: normal; font-weight: 400; }",
+   "@font-face { font-family: \"JetBrains Mono\"; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/4CLQH4JOZMAJ6BPWKUFRQYNRRCIRLEBP/3KY6UMEKQ554PCGWM3CWW3ONMSYQ3ELX/O32TDYA5Q7PAMBBEUNMO44BILZFPSQXN.woff2\"); font-display: swap; font-style: italic; font-weight: 400; }",
+   "@font-face { font-family: \"JetBrains Mono\"; src: url(\"https://framerusercontent.com/third-party-assets/fontshare/wf/6JTIO75G6Z4WKI6OXKWCW5HFEIABRF33/B4KEI2XANEQB4JEVRM6I55UDRFEX6IHD/P5A36T62G3YG2PAOS4V7EMMXYN4NF6HG.woff2\"); font-display: swap; font-style: italic; font-weight: 300; }",
+   "@font-face { font-family: \"Die Grotesk C Medium Placeholder\"; src: local(\"Arial\"); ascent-override: 98.34%; descent-override: 21.36%; line-gap-override: 0%; size-adjust: 94.57%; }",
+   "@font-face { font-family: \"Inter Placeholder\"; src: local(\"Arial\"); ascent-override: 89.79%; descent-override: 22.36%; line-gap-override: 0%; size-adjust: 107.89%; }",
+   "@font-face { font-family: \"LisaTerminal Paper 2X3Y Medium Placeholder\"; src: local(\"Arial\"); ascent-override: 85.56%; descent-override: 17.11%; line-gap-override: 0%; size-adjust: 97.4%; }",
+   "@font-face { font-family: \"Die Grotesk C Regular Placeholder\"; src: local(\"Arial\"); ascent-override: 131.79%; descent-override: 50.18%; line-gap-override: 0%; size-adjust: 91.66%; }",
+   "@font-face { font-family: \"JetBrains Mono Placeholder\"; src: local(\"Arial\"); ascent-override: 77.57%; descent-override: 22.82%; line-gap-override: 0%; size-adjust: 131.49%; }"
+  ],
+  "keyframes": {},
+  "mediaQueries": [
+   "(max-width: 809.98px)",
+   "(max-width: 1439px) and (min-width: 1200px)",
+   "(max-width: 1199px) and (min-width: 810px)",
+   "(max-width: 809px) and (min-width: 0)",
+   "(min-width: 810px) and (max-width: 1199.98px)",
+   "(min-width: 1440px)",
+   "(max-width: 640px)",
+   "(max-width: 809px)",
+   "(min-width: 810px) and (max-width: 1199px)"
+  ],
+  "transitions": {},
+  "errors": [],
+  "hoverRules": [
+   "a.framer-text:hover, span.framer-text[data-nested-link]:hover { color: var(--framer-link-hover-text-color-rgb,var(--framer-link-hover-text-color,var(--framer-link-text-color-rgb,var(--framer-link-text-color,var(--framer-blockquote-text-color-rgb,var(--framer-blockquote-text-color,var(--framer-text-c",
+   "code.framer-text a.framer-text:hover, code.framer-text span.framer-text[data-nested-link]:hover { color: var(--framer-link-hover-text-color-rgb,var(--framer-link-hover-text-color,var(--framer-link-text-color-rgb,var(--framer-link-text-color,var(--framer-blockquote-text-color-rgb,var(--framer-blockqu",
+   "a.framer-text[data-framer-page-link-current]:hover, span.framer-text[data-framer-page-link-current]:hover { color: var(--framer-link-hover-text-color-rgb,var(--framer-link-hover-text-color,var(--framer-link-current-text-color-rgb,var(--framer-link-current-text-color,var(--framer-link-text-color-rgb,",
+   "code.framer-text a.framer-text[data-framer-page-link-current]:hover, code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]), code.framer-text span.framer-text[data-framer-page-link-current]:hover, code.framer-text span.framer-text[data-framer-page-",
+   "[data-framer-component-type=\"Text\"] a:hover, [data-framer-component-type=\"Text\"] a div span:hover, [data-framer-component-type=\"Text\"] a span span span:hover, [data-framer-component-type=\"Text\"] a p span span:hover, [data-framer-component-type=\"Text\"] a h1 span span:hover, [data-framer-component-typ",
+   "a.framer-text:hover, a.framer-text:hover span.framer-text:not([data-text-fill]), span.framer-text[data-nested-link]:hover, span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) { font-family: var(--framer-font-family-preview,var(--framer-link-hover-font-family,var(--framer-",
+   "a.framer-text:hover, span.framer-text[data-nested-link]:hover { color: var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-blockquote-text-color,var(--framer-text-color,#000)))); text-decoration-line: var(--framer-link-hover-text-decoration,var(--framer-link-text-decoration,",
+   "a.framer-text:hover, span.framer-text[data-nested-link]:hover { color: var(--framer-link-hover-text-color-rgb,var(--framer-link-hover-text-color,var(--framer-link-text-color-rgb,var(--framer-link-text-color,var(--framer-blockquote-text-color-rgb,var(--framer-blockquote-text-color,var(--framer-text-c",
+   "code.framer-text a.framer-text:hover, code.framer-text span.framer-text[data-nested-link]:hover { color: var(--framer-link-hover-text-color,var(--framer-link-text-color,var(--framer-blockquote-text-color,var(--framer-code-text-color,var(--framer-text-color,#000))))); }",
+   "code.framer-text a.framer-text:hover, code.framer-text span.framer-text[data-nested-link]:hover { color: var(--framer-link-hover-text-color-rgb,var(--framer-link-hover-text-color,var(--framer-link-text-color-rgb,var(--framer-link-text-color,var(--framer-blockquote-text-color-rgb,var(--framer-blockqu",
+   "a.framer-text[data-framer-page-link-current]:hover, a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]), span.framer-text[data-framer-page-link-current]:hover, span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) { color: ",
+   "a.framer-text[data-framer-page-link-current]:hover, span.framer-text[data-framer-page-link-current]:hover { color: var(--framer-link-hover-text-color,var(--framer-link-current-text-color,var(--framer-link-text-color,var(--framer-text-color,#000)))); text-decoration-line: var(--framer-link-hover-text",
+   "a.framer-text[data-framer-page-link-current]:hover, span.framer-text[data-framer-page-link-current]:hover { color: var(--framer-link-hover-text-color-rgb,var(--framer-link-hover-text-color,var(--framer-link-current-text-color-rgb,var(--framer-link-current-text-color,var(--framer-link-text-color-rgb,",
+   "code.framer-text a.framer-text[data-framer-page-link-current]:hover, code.framer-text span.framer-text[data-framer-page-link-current]:hover { color: var(--framer-link-hover-text-color,var(--framer-link-current-text-color,var(--framer-link-text-color,var(--framer-code-text-color,var(--framer-text-col",
+   "code.framer-text a.framer-text[data-framer-page-link-current]:hover, code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]), code.framer-text span.framer-text[data-framer-page-link-current]:hover, code.framer-text span.framer-text[data-framer-page-",
+   "[data-framer-component-type=\"DeprecatedRichText\"] a:hover, [data-framer-component-type=\"DeprecatedRichText\"] a:hover span:not([data-text-fill]) { font-family: var(--framer-link-hover-font-family,var(--framer-link-font-family,var(--framer-font-family,Inter, Inter Placeholder, sans-serif))); font-styl",
+   "[data-framer-component-type=\"DeprecatedRichText\"] a[data-framer-page-link-current]:hover, [data-framer-component-type=\"DeprecatedRichText\"] a[data-framer-page-link-current]:hover span:not([data-text-fill]):not([data-nested-link]) { font-family: var(--framer-link-hover-font-family,var(--framer-link-c",
+   "[data-ts-menu]:focus-visible, [data-ts-faq]:focus-visible { outline-offset: 2px; outline: white solid 2px !important; box-shadow: rgb(30, 30, 30) 0px 0px 0px 4px !important; }",
+   "[data-ts-menu-link]:hover { filter: brightness(0.92); }",
+   "#ts-cookie-consent :focus-visible { outline: rgb(229, 81, 186) solid 2px; outline-offset: 3px; }",
+   ".ts-footer #ts-cookie-preferences:hover { text-decoration: underline; }",
+   ".ts-footer #ts-cookie-preferences:focus-visible { outline: currentcolor solid 2px; outline-offset: 3px; }"
+  ]
+ },
+ "agg": {
+  "bg": {
+   "rgb(171, 186, 185)": {
+    "n": 1,
+    "ex": [
+     "div.framer-46eN8.framer-um2ct7.ts-footer-page 1440x2280"
+    ]
+   },
+   "rgb(254, 254, 254)": {
+    "n": 6,
+    "ex": [
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n 107x36",
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n 93x36",
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n 88x36",
+     "button 110x36"
+    ]
+   },
+   "rgb(30, 30, 30)": {
+    "n": 17,
+    "ex": [
+     "a.framer-BXuVr.framer-VJScu.framer-ne3tag.framer-v-ne3tag 101x36",
+     "div.framer-sjtTo.framer-1d2531f.framer-v-5di584 28x23",
+     "div.framer-k5N4M.framer-1aosyzg.framer-v-1aosyzg 82x21",
+     "div.framer-k5N4M.framer-1aosyzg.framer-v-1aosyzg 82x21"
+    ]
+   },
+   "rgba(30, 30, 30, 0.86)": {
+    "n": 4,
+    "ex": [
+     "div.framer-ddvzI.framer-fNZnU.framer-P25Pl.framer-fUsrC 820x256",
+     "div.framer-sjtTo.framer-1d2531f.framer-v-1d2531f 42x23",
+     "div.framer-sjtTo.framer-1d2531f.framer-v-1d2531f 64x23",
+     "div.framer-sjtTo.framer-1d2531f.framer-v-1d2531f 93x23"
+    ]
+   },
+   "rgb(255, 255, 255)": {
+    "n": 2,
+    "ex": [
+     "div.framer-k5N4M.framer-1aosyzg.framer-v-1aosyzg 104x25",
+     "button 77x44"
+    ]
+   },
+   "rgb(22, 22, 22)": {
+    "n": 1,
+    "ex": [
+     "section#ts-cookie-consent 768x110"
+    ]
+   }
+  },
+  "maxWidth": {
+   "1440px": {
+    "n": 2,
+    "ex": [
+     "div.framer-rgtwdx-container w1440 x0",
+     "div.framer-1dub6wx-container w1440 x0"
+    ]
+   },
+   "100%": {
+    "n": 7,
+    "ex": [
+     "div.framer-3HfUg.framer-VJScu.framer-ANMpB.framer-4Vc8r w1440 x0",
+     "div.framer-e3z0qc w1152 x144",
+     "div.framer-ddvzI.framer-fNZnU.framer-P25Pl.framer-fUsrC w820 x310",
+     "div.framer-IwzF1.framer-hOqV8.framer-nSfJ4.framer-pt863d w1440 x0"
+    ]
+   },
+   "1024px": {
+    "n": 1,
+    "ex": [
+     "div.framer-1gqzs44 w1024 x208"
+    ]
+   },
+   "820px": {
+    "n": 2,
+    "ex": [
+     "div.framer-wjspqj w820 x310",
+     "div.framer-1j9ijg2-container w820 x310"
+    ]
+   },
+   "40%": {
+    "n": 1,
+    "ex": [
+     "div.framer-1lpg0nd w300 x800"
+    ]
+   },
+   "768px": {
+    "n": 1,
+    "ex": [
+     "section#ts-cookie-consent w768 x336"
+    ]
+   }
+  },
+  "interactive": {
+   "A | rgb(0, 0, 238) | rgb(254, 254, 254) | sans-serif | 12px | 400 | none | auto | 0px 5px | 0px | 36px": {
+    "n": 5,
+    "ex": [
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n «TypeSafe AI»",
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n «Enterprise»",
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n «Thoughts»",
+     "a.framer-29Mz9.framer-VJScu.framer-vqo04n.framer-v-vqo04n «Docs»"
+    ]
+   },
+   "BUTTON | rgb(30, 30, 30) | rgb(254, 254, 254) | \"Die Grotesk C Medium\" | 18px | 500 | none | auto | 0px 5px | 0px | 36px": {
+    "n": 1,
+    "ex": [
+     "button «Company»"
+    ]
+   },
+   "A | rgb(0, 0, 238) | rgb(30, 30, 30) | sans-serif | 12px | 400 | none | auto | 0px | 0px | 36px": {
+    "n": 1,
+    "ex": [
+     "a.framer-BXuVr.framer-VJScu.framer-ne3tag.framer-v-ne3tag «Contact us»"
+    ]
+   },
+   "A | rgb(0, 0, 238) | rgba(0, 0, 0, 0) | sans-serif | 12px | 400 | none | auto | 0px | 0px | 256.219px": {
+    "n": 1,
+    "ex": [
+     "a.framer-4je88y.framer-lgr92r «Company NewsTypeSafe A raises »"
+    ]
+   },
+   "A | rgb(0, 0, 238) | rgba(0, 0, 0, 0) | sans-serif | 12px | 400 | none | auto | 0px | 0px | 142.812px": {
+    "n": 2,
+    "ex": [
+     "a.framer-106jo6b.framer-lgr92r «Company NewsTypeSafe A raises »",
+     "a.framer-106jo6b.framer-lgr92r «ThoughtsThe Bitterest LessonTL»"
+    ]
+   },
+   "A | rgb(0, 0, 238) | rgba(0, 0, 0, 0) | sans-serif | 12px | 400 | none | auto | 0px | 0px | 169.812px": {
+    "n": 1,
+    "ex": [
+     "a.framer-106jo6b.framer-lgr92r «Company NewsIntroducing System»"
+    ]
+   },
+   "A | rgb(0, 0, 238) | rgba(0, 0, 0, 0) | sans-serif | 12px | 400 | none | auto | 0px | 0px | 190.219px": {
+    "n": 3,
+    "ex": [
+     "a.framer-106jo6b.framer-lgr92r «ThoughtsLies, Damned Lies, and»",
+     "a.framer-106jo6b.framer-lgr92r «MediaAI: too good to be true, »",
+     "a.framer-106jo6b.framer-lgr92r «MediaDiogo Almeida - Founders »"
+    ]
+   },
+   "A | rgb(254, 254, 254) | rgba(0, 0, 0, 0) | \"Die Grotesk C Regular\" | 15px | 400 | none | auto | 0px | 0px | 44px": {
+    "n": 6,
+    "ex": [
+     "a.framer-text.framer-styles-preset-1t9z3vl «Terms of Use»",
+     "a.framer-text.framer-styles-preset-1t9z3vl «Privacy Policy»",
+     "a.framer-text.framer-styles-preset-1t9z3vl «Acceptable Use Policy»",
+     "a.framer-text.framer-styles-preset-1t9z3vl «Accessibility»"
+    ]
+   },
+   "A | rgb(255, 255, 255) | rgba(0, 0, 0, 0) | sans-serif | 14px | 400 | underline | auto | 0px | 0px | auto": {
+    "n": 1,
+    "ex": [
+     "a «Privacy Policy»"
+    ]
+   },
+   "BUTTON | rgb(255, 255, 255) | rgba(0, 0, 0, 0) | sans-serif | 14px | 400 | none | auto | 10.4px 16px | 0px | 43.7812px": {
+    "n": 1,
+    "ex": [
+     "button «Reject»"
+    ]
+   },
+   "BUTTON | rgb(22, 22, 22) | rgb(255, 255, 255) | sans-serif | 14px | 400 | none | auto | 10.4px 16px | 0px | 43.7812px": {
+    "n": 1,
+    "ex": [
+     "button «Accept»"
+    ]
+   }
+  },
+  "pointerOther": {
+   "DIV": {
+    "n": 92,
+    "ex": [
+     "div.framer-1e010qu",
+     "div.framer-1e010qu",
+     "div.framer-1e010qu",
+     "div#undefined-1lsa8pt.framer-1lsa8pt-container"
+    ]
+   },
+   "P": {
+    "n": 32,
+    "ex": [
+     "p.framer-text.framer-styles-preset-1owhkfx",
+     "p.framer-text.framer-styles-preset-1owhkfx",
+     "p.framer-text.framer-styles-preset-1owhkfx",
+     "p.framer-text.framer-styles-preset-1owhkfx"
+    ]
+   },
+   "svg": {
+    "n": 2,
+    "ex": [
+     "svg",
+     "svg.framer-Rzgtl.framer-pyuq7b"
+    ]
+   },
+   "path": {
+    "n": 1,
+    "ex": [
+     "path"
+    ]
+   },
+   "use": {
+    "n": 1,
+    "ex": [
+     "use"
+    ]
+   },
+   "IMG": {
+    "n": 1,
+    "ex": [
+     "img"
+    ]
+   },
+   "SUMMARY": {
+    "n": 1,
+    "ex": [
+     "summary"
+    ]
+   }
+  },
+  "color": {
+   "rgb(30, 30, 30)": {
+    "n": 7,
+    "ex": [
+     "p.framer-text.framer-styles-preset-1owhkfx «TypeSafe AI»",
+     "p.framer-text.framer-styles-preset-1owhkfx «Enterprise»",
+     "p.framer-text.framer-styles-preset-1owhkfx «Thoughts»",
+     "button «Company»"
+    ]
+   },
+   "rgb(255, 255, 255)": {
+    "n": 12,
+    "ex": [
+     "p.framer-text.framer-styles-preset-1owhkfx «Contact us»",
+     "p.framer-text.framer-styles-preset-6xiy3q «TypeSafe A raises Series AI»",
+     "p.framer-text.framer-styles-preset-ecyven «TL;DR raised a lot of money, and we’re g»",
+     "p.framer-text.framer-styles-preset-1fty8dp «Contact»"
+    ]
+   },
+   "rgba(30, 30, 30, 0.86)": {
+    "n": 14,
+    "ex": [
+     "h1.framer-text.framer-styles-preset-1gz3e0j «Thoughts»",
+     "p.framer-text.framer-styles-preset-1m5lpcg «Categories»",
+     "p.framer-text.framer-styles-preset-4xqhyo «TypeSafe A raises Series AI»",
+     "p.framer-text.framer-styles-preset-ecyven «TL;DR raised a lot of money, and we’re g»"
+    ]
+   },
+   "rgb(212, 91, 182)": {
+    "n": 1,
+    "ex": [
+     "p.framer-text «All»"
+    ]
+   },
+   "rgb(222, 222, 222)": {
+    "n": 9,
+    "ex": [
+     "p.framer-text «Media»",
+     "p.framer-text «Thoughts»",
+     "p.framer-text «Company News»",
+     "p.framer-text «Company News»"
+    ]
+   },
+   "rgb(254, 254, 254)": {
+    "n": 7,
+    "ex": [
+     "p.framer-text.framer-styles-preset-1fty8dp «TypeSafe AI © 2026»",
+     "a.framer-text.framer-styles-preset-1t9z3vl «Terms of Use»",
+     "a.framer-text.framer-styles-preset-1t9z3vl «Privacy Policy»",
+     "a.framer-text.framer-styles-preset-1t9z3vl «Acceptable Use Policy»"
+    ]
+   },
+   "rgb(22, 22, 22)": {
+    "n": 1,
+    "ex": [
+     "button «Accept»"
+    ]
+   }
+  },
+  "media": {
+   "svg 24x24": {
+    "n": 1,
+    "ex": [
+     "svg "
+    ]
+   },
+   "svg 20x20": {
+    "n": 1,
+    "ex": [
+     "svg.framer-Rzgtl.framer-pyuq7b "
+    ]
+   },
+   "IMG 300x192": {
+    "n": 1,
+    "ex": [
+     "img https://framerusercontent.com/images/UzargtEWi4DzUEteT9Fh8moZeLo.png?lossless=1&"
+    ]
+   }
+  },
+  "grid": {
+   "440.109px 479.766px 440.125px / gap 24px": {
+    "n": 1,
+    "ex": [
+     "div.framer-IwzF1.framer-hOqV8.framer-nSfJ4.framer-pt863d w1440"
+    ]
+   }
+  },
+  "transition": {
+   "color / 0.5s / cubic-bezier(0.12, 0.23, 0.5, 1) / 0s": {
+    "n": 6,
+    "ex": [
+     "a.framer-text.framer-styles-preset-1t9z3vl",
+     "a.framer-text.framer-styles-preset-1t9z3vl",
+     "a.framer-text.framer-styles-preset-1t9z3vl",
+     "a.framer-text.framer-styles-preset-1t9z3vl"
+    ]
+   }
+  },
+  "border": {
+   "1px solid rgb(85, 85, 85)": {
+    "n": 4,
+    "ex": [
+     "section#ts-cookie-consent Top",
+     "section#ts-cookie-consent Right",
+     "section#ts-cookie-consent Bottom",
+     "section#ts-cookie-consent Left"
+    ]
+   },
+   "1px solid rgb(255, 255, 255)": {
+    "n": 8,
+    "ex": [
+     "button Top",
+     "button Right",
+     "button Bottom",
+     "button Left"
+    ]
+   }
+  },
+  "shadow": {
+   "rgba(0, 0, 0, 0.533) 0px 8px 24px 0px": {
+    "n": 1,
+    "ex": [
+     "section#ts-cookie-consent"
+    ]
+   }
+  }
+ },
+ "text": {
+  "\"Die Grotesk C Medium\" | 18px | 500 | 18px | 0.54px | capitalize | normal": {
+   "n": 6,
+   "ex": [
+    "p.framer-text.framer-styles-preset-1owhkfx «TypeSafe AI»",
+    "p.framer-text.framer-styles-preset-1owhkfx «Enterprise»",
+    "p.framer-text.framer-styles-preset-1owhkfx «Thoughts»",
+    "p.framer-text.framer-styles-preset-1owhkfx «Docs»",
+    "p.framer-text.framer-styles-preset-1owhkfx «API console»"
+   ],
+   "colors": [
+    "rgb(30, 30, 30)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "\"Die Grotesk C Medium\" | 18px | 500 | 18px | normal | none | normal": {
+   "n": 1,
+   "ex": [
+    "button «Company»"
+   ],
+   "colors": [
+    "rgb(30, 30, 30)"
+   ]
+  },
+  "\"Die Grotesk C Medium\" | 150px | 500 | 120px | normal | capitalize | normal": {
+   "n": 1,
+   "ex": [
+    "h1.framer-text.framer-styles-preset-1gz3e0j «Thoughts»"
+   ],
+   "colors": [
+    "rgba(30, 30, 30, 0.86)"
+   ]
+  },
+  "\"LisaTerminal Paper 2X3Y Medium\" | 18px | 500 | 18px | 0.18px | none | normal": {
+   "n": 1,
+   "ex": [
+    "p.framer-text «Company News»"
+   ],
+   "colors": [
+    "rgb(30, 30, 30)"
+   ]
+  },
+  "\"Die Grotesk C Medium\" | 48px | 500 | 43.2px | normal | capitalize | normal": {
+   "n": 1,
+   "ex": [
+    "p.framer-text.framer-styles-preset-6xiy3q «TypeSafe A raises Series AI»"
+   ],
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "\"Die Grotesk C Regular\" | 17px | 400 | 20.4px | 0.85px | none | normal": {
+   "n": 7,
+   "ex": [
+    "p.framer-text.framer-styles-preset-ecyven «TL;DR raised a lot of money, and we’re going to ma»",
+    "p.framer-text.framer-styles-preset-ecyven «TL;DR raised a lot of money, and we’re going to ma»",
+    "p.framer-text.framer-styles-preset-ecyven «After two years in stealth, we’re excited to final»",
+    "p.framer-text.framer-styles-preset-ecyven «As the famously misattributed quote goes: “There a»",
+    "p.framer-text.framer-styles-preset-ecyven «TL;DR: Compute drives progress in AI, but what goo»"
+   ],
+   "colors": [
+    "rgb(255, 255, 255)",
+    "rgba(30, 30, 30, 0.86)"
+   ]
+  },
+  "\"JetBrains Mono\" | 12px | 300 | 14.4px | 0.6px | capitalize | normal": {
+   "n": 1,
+   "ex": [
+    "p.framer-text.framer-styles-preset-1m5lpcg «Categories»"
+   ],
+   "colors": [
+    "rgba(30, 30, 30, 0.86)"
+   ]
+  },
+  "\"LisaTerminal Paper 2X3Y Medium\" | 16px | 500 | 16px | 0.16px | none | normal": {
+   "n": 4,
+   "ex": [
+    "p.framer-text «All»",
+    "p.framer-text «Media»",
+    "p.framer-text «Thoughts»",
+    "p.framer-text «Company News»"
+   ],
+   "colors": [
+    "rgb(212, 91, 182)",
+    "rgb(222, 222, 222)"
+   ]
+  },
+  "\"LisaTerminal Paper 2X3Y Medium\" | 14px | 500 | 14px | 0.14px | none | normal": {
+   "n": 6,
+   "ex": [
+    "p.framer-text «Company News»",
+    "p.framer-text «Company News»",
+    "p.framer-text «Thoughts»",
+    "p.framer-text «Thoughts»",
+    "p.framer-text «Media»"
+   ],
+   "colors": [
+    "rgb(222, 222, 222)"
+   ]
+  },
+  "\"Die Grotesk C Medium\" | 30px | 500 | 27px | 0.6px | capitalize | normal": {
+   "n": 6,
+   "ex": [
+    "p.framer-text.framer-styles-preset-4xqhyo «TypeSafe A raises Series AI»",
+    "p.framer-text.framer-styles-preset-4xqhyo «Introducing System One Models & Jev»",
+    "p.framer-text.framer-styles-preset-4xqhyo «Lies, Damned Lies, and Benchmarks»",
+    "p.framer-text.framer-styles-preset-4xqhyo «The Bitterest Lesson»",
+    "p.framer-text.framer-styles-preset-4xqhyo «AI: too good to be true, too bad to be useful | Ty»"
+   ],
+   "colors": [
+    "rgba(30, 30, 30, 0.86)"
+   ]
+  },
+  "\"Die Grotesk C Regular\" | 15px | 400 | 18px | 0.75px | none | normal": {
+   "n": 8,
+   "ex": [
+    "p.framer-text.framer-styles-preset-1fty8dp «TypeSafe AI © 2026»",
+    "p.framer-text.framer-styles-preset-1fty8dp «Contact»",
+    "a.framer-text.framer-styles-preset-1t9z3vl «Terms of Use»",
+    "a.framer-text.framer-styles-preset-1t9z3vl «Privacy Policy»",
+    "a.framer-text.framer-styles-preset-1t9z3vl «Acceptable Use Policy»"
+   ],
+   "colors": [
+    "rgb(254, 254, 254)",
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "sans-serif | 14px | 400 | 21px | normal | none | normal": {
+   "n": 4,
+   "ex": [
+    "p «With your permission, we use cookies to track usag»",
+    "a «Privacy Policy»",
+    "button «Reject»",
+    "button «Accept»"
+   ],
+   "colors": [
+    "rgb(255, 255, 255)",
+    "rgb(22, 22, 22)"
+   ]
+  },
+  "sans-serif | 12px | 400 | 18px | normal | none | normal": {
+   "n": 3,
+   "ex": [
+    "summary «Cookie details»",
+    "li «: remembers your choice for 180 days.»",
+    "li «: PostHog usage tracking, only after Accept, for u»"
+   ],
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  },
+  "monospace | 12px | 400 | 18px | normal | none | normal": {
+   "n": 2,
+   "ex": [
+    "code «__ph_opt_in_out_*»",
+    "code «ph_*_posthog»"
+   ],
+   "colors": [
+    "rgb(255, 255, 255)"
+   ]
+  }
+ },
+ "fonts": [
+  "Fragment Mono 400 normal unloaded",
+  "Fragment Mono 400 normal unloaded",
+  "Fragment Mono 400 normal unloaded",
+  "JetBrains Mono 300 normal unloaded",
+  "JetBrains Mono 300 normal unloaded",
+  "JetBrains Mono 300 normal unloaded",
+  "JetBrains Mono 300 normal unloaded",
+  "JetBrains Mono 300 normal unloaded",
+  "JetBrains Mono 300 normal loaded",
+  "Die Grotesk C Medium 500 normal loaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 normal unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 900 italic unloaded",
+  "Inter 700 italic unloaded",
+  "Inter 700 italic unloaded",
+  "Inter 700 italic unloaded",
+  "Inter 700 italic unloaded",
+  "Inter 700 italic unloaded",
+  "Inter 700 italic unloaded",
+  "Inter 700 italic unloaded",
+  "LisaTerminal Paper 2X3Y Medium 500 normal loaded",
+  "Die Grotesk C Regular 400 normal loaded",
+  "Inter 400 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 400 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 700 normal unloaded",
+  "Inter 400 italic unloaded",
+  "Inter 400 italic unloaded",
+  "Inter 400 italic unloaded",
+  "Inter 400 italic unloaded",
+  "Inter 400 italic unloaded",
+  "Inter 400 italic unloaded",
+  "Inter 400 italic unloaded",
+  "JetBrains Mono 400 normal unloaded",
+  "JetBrains Mono 400 italic unloaded",
+  "JetBrains Mono 300 italic unloaded",
+  "Die Grotesk C Medium Placeholder normal normal loaded",
+  "Inter Placeholder normal normal unloaded",
+  "LisaTerminal Paper 2X3Y Medium Placeholder normal normal loaded",
+  "Die Grotesk C Regular Placeholder normal normal loaded",
+  "JetBrains Mono Placeholder normal normal loaded"
+ ]
+}

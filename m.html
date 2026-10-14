@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-scheme="paper" data-type="measured" data-motion="computed">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Module — Taste Index</title>
+<link rel="stylesheet" href="brand.css">
+<style>body{min-height:100vh}.m{padding:80px var(--gutter)}@media(max-width:809px){.m{padding:50px 10px}}</style>
+<style id="mcss"></style>
+<script src="modules.js"></script>
+</head>
+<body>
+<script>
+  // Renders one module from modules.js: m.html?id=pricing&scheme=pink&type=wide&motion=snappy
+  (() => {
+    const q = new URLSearchParams(location.search);
+    const list = window.TI_MODULES || [];
+    const m = list.find((x) => x.id === q.get('id')) || list[0];
+    for (const k of ['scheme', 'type', 'motion']) if (q.get(k)) document.documentElement.dataset[k] = q.get(k);
+    document.title = m.name + ' — Taste Index';
+    document.getElementById('mcss').textContent = m.css || '';
+    document.body.innerHTML = m.html;
+    const s = document.createElement('script'); s.src = 'brand.js'; document.body.append(s);
+  })();
+</script>
+</body>
+</html>
